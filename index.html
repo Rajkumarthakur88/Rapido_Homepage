@@ -13,6 +13,7 @@
      <link rel="stylesheet" href="style.css">
      <link rel="stylesheet" href="animation.css">
      <link rel="stylesheet" href="media.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -75,12 +76,6 @@
                     <div class="section-2-image">
                          <img class="sec-2-img-2" src="Section-2-img-2.webp" alt="">
                          <img class="sec-2-img-1" src="Section-2-img-1.webp" alt="">
-                         <div class="white-shape">
-
-                         </div>
-                         <div class="yellow-shape">
-
-                         </div>
                     </div>
                </div>
                <div class="section-2-text">
@@ -128,7 +123,7 @@
 
           <!-- SECTION-4 -->
 
-          <div class="section-4-container">
+          <div  class="section-4-container">
                <div class="section-4">
                     <h1 class="sec-4-h1">What's in it for you
                     </h1>
@@ -159,7 +154,8 @@
           </div>
 
           <!-- SECTION-5 -->
-          <div class="section-5-container">
+          <div  data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom" class="section-5-container">
                <div class="section-5-bg-color">
                     <div class="section-5-dotted-img-1">
                          <img src="design-dot-image.svg" alt="">
@@ -266,6 +262,10 @@
                <p>© 2022 Roppen Transportation. All rights reserved.</p>
           </div>
      </footer>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+          AOS.init();
+     </script>
 </body>
 
 </html>
