@@ -2,6 +2,9 @@
      .hero-section {
           height: 130vh !important;
      }
+     .hero-image-section img {
+          width: 78vw !important;
+     }
 
      .section-5-review-section img {
           width: 45px;
@@ -79,7 +82,6 @@
           align-items: center;
           justify-content: center;
           flex-direction: column;
-          border: #f6b800 2px solid;
      }
 
      .hero-text-section {
