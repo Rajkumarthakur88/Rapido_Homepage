@@ -151,7 +151,6 @@
 
 
      /* SECTION-2-KNOW-US-BETTER */
-
      .section-2-know-us-better {
           width: 100%;
           height: auto;
@@ -223,6 +222,7 @@
           font-size: 16px;
      }
 
+
      /* SECTION-3      */
      .section-3-container {
           width: 100%;
@@ -257,6 +257,7 @@
      .sec-3-circle {
           width: 160px;
           height: 160px;
+          margin: 5px;
      }
 
      .sec-3-circle h3 {
